@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noUncheckedSideEffectImports": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "disableSizeLimit": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "jsx": "react",
+    "lib": ["ESNext", "DOM"],
+    "target": "ESNext",
+    "noErrorTruncation": true,
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "vs-programming-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "pnpm build && vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "pre-commit install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
+    "@mui/icons-material": "^6.4.7",
+    "@mui/material": "^6.4.7",
+    "@mui/x-charts": "^7.27.1",
+    "@react-leaflet/core": "^3.0.0",
+    "@turf/length": "^7.3.0",
+    "@turf/line-intersect": "^7.3.0",
+    "chroma-js": "^3.1.2",
+    "haversine-distance": "^1.2.3",
+    "leaflet": "^1.9.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
+    "react-router": "^7.3.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "esbuild"
+    ]
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^3.1.1",
+    "@types/geojson": "^7946.0.16",
+    "@types/leaflet": "^1.9.16",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "geojson": "^0.5.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1",
+    "vite-plugin-static-copy": "^2.3.0",
+    "vite-plugin-svgr": "^4.3.0"
+  }
+}
